@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Jersey+10&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend+Deca:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Racing+Sans+One&family=Russo+One&family=Varela+Round&family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Jersey+10&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend+Deca:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Racing+Sans+One&family=Russo+One&family=Varela+Round&family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Jersey+10&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Krona+One&family=Lexend+Deca:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Racing+Sans+One&family=Russo+One&family=Varela+Round&family=Zen+Dots&display=swap");
+
+body {
+  background-image: url("images/pokemon-bg1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* TITLE */
+
+#title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title {
+  font-family: "Jersey 10";
+  font-size: 5rem;
+  margin-bottom: 0;
+  margin-top: 15px;
+  -webkit-text-stroke: 0.02px rgb(105, 212, 191);
+  text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+#logo-container {
+  display: flex;
+  align-items: center;
+}
+
+#pokemon-logo {
+  width: 150px;
+}
+
+#pokemon-ball {
+  width: 50px;
+}
+
+/* MAIN CONTAINER */
+
+#container {
+  background-color: rgba(231, 231, 231, 0.5);
+  width: 700px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+/* FIRST LAYER */
+
+#first-layer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#pokemon-image {
+  width: 300px;
+}
+
+#pokemon-name {
+  font-family: "Krona One";
+}
+
+/* DESCRIPTIONS */
+#descriptions-container {
+  display: flex;
+}
+
+#type {
+  font-family: "Press Start 2p";
+  font-size: 0.7rem;
+  margin-right: 40px;
+  background-color: white;
+  width: 100px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(98, 184, 255);
+  border-radius: 5px;
+  margin-top: 13px;
+}
+
+#base-stat {
+  font-family: "Press Start 2p";
+  font-size: 1rem;
+  background-color: white;
+  width: 100px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 2px solid rgb(255, 213, 45);
+}
+
+#type-label {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-right: 40px;
+  font-family: "Jersey 10";
+  color: rgb(98, 184, 255);
+  -webkit-text-stroke: 0.02px black;
+}
+
+#base-stat-label {
+  font-size: 2rem;
+  margin-top: 0;
+  font-family: "Jersey 10";
+  color: rgb(255, 213, 45);
+  -webkit-text-stroke: 0.02px black;
+}
+
+#description1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#description2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* SECOND LAYER */
+
+#second-layer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#second-layer h2 {
+  font-family: "Press Start 2P";
+  font-size: 1rem;
+}
+
+#second-layer h3 {
+  font-family: "Jersey 10";
+  font-size: 1.2rem;
+}
+
+#skill1 {
+  background-color: rgb(255, 243, 175);
+  width: 110px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+#skill2 {
+  background-color: rgb(154, 225, 255);
+  width: 110px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+#skill3 {
+  background-color: rgb(202, 255, 189);
+  width: 110px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* SEARCH BAR */
+
+#search-bar-container {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#search-bar {
+  height: 40px;
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 3px;
+  padding-left: 10px;
+  font-family: "Krona One";
+  font-size: 12px;
+}
+
+#searchBTN {
+  height: 45px;
+  margin-left: 10px;
+  font-family: "Krona One";
+  border: 2px solid black;
+  border-radius: 3px;
+  background-color: rgb(255, 86, 86);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* SOCIALS */
+
+#socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 5px;
+}
+
+#socials img {
+  width: 25px;
+  cursor: pointer;
+  transition: scale ease 0.1s;
+}
+
+#socials img:hover {
+  scale: 1.1;
+}
+
+a {
+  text-decoration: none;
+}
+
+#socials p {
+  margin-top: 5px;
+  font-weight: 480;
+  font-family: "Kanit";
+}
